@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akshath-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+      }
+      nav{
+        display:flex ;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        background-color: rgb(21, 21, 95);
+      }
+      nav ul{
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li{
+        list-style: none;
+        margin: 0 24px;
+        
+      }
+
+      nav ul li a{
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: chartreuse;
+        font-size: 1.02rem;
+      }
+
+      main hr{
+        border: 0;
+        background-color: cyan;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .left{
+        font-size: 1.4rem;
+      }
+      .firstSection{
+        display: flex;
+        justify-content: space-around;
+        margin: 23px 0;
+        margin: 38px 0;
+        align-items: center;
+        margin: 130px 0;
+        
+      }
+      .firstSection > div{
+        width: 30%;
+        
+      }
+
+      .leftSection{
+       font-size: 2.8rem;
+
+      }
+
+      .leftSection .btn{
+        padding: 12px;
+        background-color:dodgerblue;
+        border: 2px solid white;
+        
+        border-radius: 5px;
+        font-style: oblique;
+        cursor: pointer;
+      }
+
+      .rightSection img{
+        width: 90%;
+    }
+    .textgray{
+      color: gray;
+    }
+
+    .purple{
+        color: chartreuse;
+    }
+    #element{
+        color:darkorchid
+
+    }
+    .secondSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    
+    }
+    .secondSection h1{
+      font-size: 1.75rem;
+    }
+    .secondSection .box{
+      background: white;
+      width: 79vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+
+    .secondSection .vertical{
+      height: 95px;
+      width: 1px;
+      background-color: azure;
+      margin: 0 120px;
+
+    }
+
+    .image-top{
+      width: 23px;
+      position: relative;
+      top: -32px;
+      left: -9px;
+    }
+
+    .vertical-title{
+      position: relative;
+      top: 75px;
+      width: 150px;
+      font-size: 14px;
+
+
+    }
+    .vertical-desc{
+      position: relative;
+      top: 85px;
+      color:darkturquoise;
+      width: 150px;
+      font-size: 12px;
+    }
+
+    .footer{
+      background-color: rgb(0, 0, 33);
+      height: 233px;
+    }
+
+    .footer{
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+    }
+
+    .footer ul{
+      list-style: none;
+    }
+
+    .footer-rights{
+      text-align: center;
+      color: gray;
+      padding-bottom: 50px;
+    }
+
+
+      
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Akshath's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="">Home </a></li>
+                <li><a href="">About </a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Projects </a></li>
+                <li><a href="">Contact</a></li>
+                
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi my name is <span class="purple">Akshath M </span>
+                <div>and I am a aspiring </div> 
+                <!-- <div>Web Developer</div>     -->
+                
+                <span id="element"></span> 
+                <div class="buttons">
+                  <button class="btn">Download Resume</button>
+                  <button class="btn">Visit my GitHub</button>
+                </div>  
+            </div>
+            <div class="rightSection">
+                <img src="web_dev.jpg">
+            </div>
+        </section>  
+<hr>        
+        <section class="secondSection">
+          <span class="textgray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+              <div class="vertical">
+                <img class="image-top" src="html_logo.png" alt="">
+                <div class="vertical-title">
+                  HTML Developer (2023-2024)
+              </div> 
+             <div class="vertical-desc">
+                    I was an full time HTML Web developer when I started by coding career in a small company
+                    made several websites including some of websites of MNC companies.
+            </div>
+        </div>
+        
+              <div class="vertical">
+                <img class="image-top" src="node_js.png" alt="">
+                <div class="vertical-title">
+                   Node JS Developer (2025-2027)
+              </div> 
+             <div class="vertical-desc">
+                    I was an full time Node JS developer in a good company
+                    made several websites of MNC companies.
+            </div>
+        </div>
+         
+              <div class="vertical">
+                <img class="image-top" src="backend.png" alt="">
+                <div class="vertical-title">
+                    Back end Developer (2028-2029)
+              </div> 
+             <div class="vertical-desc">
+                   I was an full time Back End Web developer in Google
+                   created back end design.
+            </div>
+        </div>
+         
+              <div class="vertical">
+                <img class="image-top" src="java_logo.png" alt="">
+                <div class="vertical-title">
+                    Java Developer (2030-2031)
+              </div> 
+             <div class="vertical-desc">
+                   I then became an Java developer in a facebook
+                   and worked in core java.
+             </div>
+        </div>
+              <div class="vertical">
+                <img class="image-top" src="full_stack.png" alt="">
+                <div class="vertical-title">
+                    Full stack Developer (2032-Present)
+              </div> 
+             <div class="vertical-desc">
+                    I became an full time Full stack developer in Microsoft.
+            </div>
+        </div>
+              
+              
+        </section>  
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Akshath's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>Menu</li>
+             <li>Services</li>
+  
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Location</li>
+            <li>Biography</li>
+            <li>Photos</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Places</li>
+            <li>Current life</li>
+            <li>Union</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        www.Akshathsportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer', 'Freelancer','UI/UX Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+      
+  </body>
+</html>
